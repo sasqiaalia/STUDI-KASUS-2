@@ -26,42 +26,42 @@ int main (){
 	cin >> pilih;
 	cout << endl;
 	
-	switch(pilih)
+	switch (pilih)
   {
 		case 1:
-			menu="Ayam geprek";
-			harga= 21000;
-			cout<<"Jumlah pesanan : ";
-			cin>>jumlah;
-			total= harga*jumlah;
+			menu ="Ayam geprek";
+			harga = 21000;
+			cout << "Jumlah pesanan : ";
+			cin >> jumlah;
+			total = harga * jumlah;
 			break;
 		case 2:
-			menu= "Ayam goreng";
-			harga= 17000;
-			cout<<"Jumlah pesanan : ";
-			cin>>jumlah;
-			total= harga*jumlah;
+			menu = "Ayam goreng";
+			harga = 17000;
+			cout << "Jumlah pesanan : ";
+			cin >> jumlah;
+			total = harga * jumlah;
 			break;
 		case 3:
-			menu= "Udang goreng";
-			harga= 19000;
-			cout<<"Jumlah pesanan : "; 
-			cin>>jumlah;
-			total= harga*jumlah;
+			menu = "Udang goreng";
+			harga = 19000;
+			cout << "Jumlah pesanan : "; 
+			cin >> jumlah;
+			total = harga * jumlah;
 			break;
 		case 4:
-			menu= "Cumi goreng";
-			harga= 20000;
-			cout<<"Jumlah pesanan : ";
-			cin>>jumlah;
-			total= harga*jumlah;
+			menu = "Cumi goreng";
+			harga = 20000;
+			cout << "Jumlah pesanan : ";
+			cin >> jumlah;
+			total = harga * jumlah;
 			break;
 		case 5:
-			menu= "Ayam bakar";
-			harga= 25000;
+			menu = "Ayam bakar";
+			harga = 25000;
 			cout << "Jumlah pesanan : ";
-			cin>>jumlah;
-			total= harga*jumlah;
+			cin >> jumlah;
+			total = harga * jumlah;
 			break;
 		default:
 			cout << "Menu yang Anda pilih tidak ada!";
@@ -70,12 +70,12 @@ int main (){
 	cout << "Masukkan pilihan jarak rumah anda (KM) : ";
 	cin >> jarak;
 	cout << endl;
-	if ( jarak<3){
+	if ( jarak < 3){
 		cout << "Anda mendapat ongkir sebanyak 15000\n";
 		ongkir = 15000;
-		cout << "Total ongkir = "<< ongkir;
+		cout << "Total ongkir = " << ongkir;
 	}
-	else if (jarak>=3  ) {
+	else if (jarak >= 3) {
 		cout << "Anda mendapat ongkir sebanyak 25000\n";
 		ongkir = 25000;
 		cout << "Total ongkir = " << ongkir;	
