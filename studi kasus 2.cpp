@@ -19,4 +19,46 @@ int main (){
 	cout << "Masukkan menu pilihan : ";
 	cin >> pilih;
 	cout << endl;
+	
+	switch(pilih)
+  {
+		case 1:
+			menu="Ayam geprek";
+			harga= 21000;
+			cout<<"Jumlah pesanan : ";
+			cin>>jumlah;
+			total= harga*jumlah;
+			break;
+		case 2:
+			menu= "Ayam goreng";
+			harga= 17000;
+			cout<<"Jumlah pesanan : ";
+			cin>>jumlah;
+			total= harga*jumlah;
+			break;
+		case 3:
+			menu= "Udang goreng";
+			harga= 19000;
+			cout<<"Jumlah pesanan : "; 
+			cin>>jumlah;
+			total= harga*jumlah;
+			break;
+		case 4:
+			menu= "Cumi goreng";
+			harga= 20000;
+			cout<<"Jumlah pesanan : ";
+			cin>>jumlah;
+			total= harga*jumlah;
+			break;
+		case 5:
+			menu= "Ayam bakar";
+			harga= 25000;
+			cout << "Jumlah pesanan : ";
+			cin>>jumlah;
+			total= harga*jumlah;
+			break;
+		default:
+			cout << "Menu yang Anda pilih tidak ada!";
+	}
+	
 }
