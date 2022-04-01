@@ -12,6 +12,7 @@ int main (){
 	int pilih, ongkir, jumlah, total, harga, potbel, totbel, pot_ong, hasil_pot, akhir;
 	string menu;
 	float jarak;
+	
 	cout << "++++++++++++++++++++++++++++++++++++++++++++++++\n";
 	cout << "|          STORMI CHICKEN AND SEAFOOD          |\n";
 	cout << "++++++++++++++++++++++++++++++++++++++++++++++++\n";
@@ -84,7 +85,7 @@ int main (){
 		cout<<"!!!";
 	}
 	
-	cout <<"\nTotal = " << total << endl;
+	cout << "\nTotal = " << total << endl;
 	cout << "===========================\n";
 	
 	if (total > 25000 && total <= 50000){
