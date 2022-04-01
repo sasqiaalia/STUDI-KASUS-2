@@ -17,8 +17,8 @@ int main (){
 	cout << "++++++++++++++++++++++++++++++++++++++++++++++++\n";
 	
 	cout << "Pilihan Menu : \n";
-	cout << "1.Ayam geprek\t: 21000" <<endl;
-	cout << "2.Ayam goreng\t: 17000" <<endl;
+	cout << "1.Ayam geprek\t: 21000" << endl;
+	cout << "2.Ayam goreng\t: 17000" << endl;
 	cout << "3.Udang goreng\t: 19000" << endl;
     cout << "4.Cumi goreng\t: 20000" << endl;
     cout << "5.Ayam bakar\t: 25000" << endl;
@@ -93,10 +93,10 @@ int main (){
 		hasil_pot = ongkir - pot_ong;
 		potbel = 0 ;
 		totbel = total - potbel;
-		akhir = total-potbel + hasil_pot;
+		akhir = total - potbel + hasil_pot;
 	}
 	else if (total > 50000 && total <= 150000){
-		cout<< "Potongan biaya ongkir 5000 dan diskon 15%" << endl;
+		cout << "Potongan biaya ongkir 5000 dan diskon 15%" << endl;
 		pot_ong = 5000;
 		hasil_pot = ongkir - pot_ong;
 		potbel = total * 0.15;
